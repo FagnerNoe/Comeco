@@ -1,0 +1,38 @@
+
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link a href="style.css" rel="stylesheet">
+    <script src=index.js></script>
+    <title>Calculadora</title>
+</head>
+<body>
+    
+    <nav>
+    <div class= "box">
+         <h1>
+         CALCULADORA NOÉ
+         </h1>
+    
+    <input type="text" placeholder="Insira um numero" id="num1"><br><br>
+    <input type="text" placeholder="Insira outro numero" id="num2"><br><br>
+
+    <select id = "operacao">
+        <option value= "+">+</option>
+        <option value= "-">-</option>
+        <option value= "/">/</option>
+        <option value= "X">X</option>
+
+    </select><br><br><br><br>
+    
+   <button onclick="calcular()">Resultado</button>
+    <input type="text" id="result"/>
+    
+    </div>
+    </nav>
+    
+</body>
+
+</html>

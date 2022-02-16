@@ -1,0 +1,14 @@
+{
+    "liveServer.settings.CustomBrowser": "chrome",
+    "liveServer.settings.NoBrowser": true,
+    "liveServer.settings.proxy": {
+        "enable": true,
+        "proxyUri": "http://127.0.0.1:5500"
+    },
+    "liveServer.settings.useBrowserPreview": true,
+    "liveServer.settings.useLocalIp": true,
+    "liveServer.settings.https": {
+        "enable": true
+    },
+    "liveServer.settings.fullReload": true
+}

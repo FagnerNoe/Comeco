@@ -1,0 +1,64 @@
+body{
+    background-image: linear-gradient(rgb(235, 129, 43)20px,rgb(89, 18, 117));
+    align-items: center;
+    text-align: center;
+   
+}
+
+
+
+
+
+
+.box{
+    
+    background-image:radial-gradient(rgb(4, 104, 54),rgb(21, 81, 131));
+    border: 5px solid rgba(182, 103, 12, 0.342);
+    border-radius: 10%;
+    width: 300px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    text-align: center;
+    
+    
+    
+}
+input{
+    background-color: rgb(231, 225, 191);
+    border-radius: 20px;
+    text-align: center;
+    height: 30px;
+    font-size: 20px;
+    font-style: italic;
+}
+
+h1{
+    
+    font-size: 25px;
+    border-left: hidden;
+    border-right: hidden;
+    font-style: italic;
+    color: rgb(39, 211, 168);
+    
+}
+select{
+    border-radius: 30%;
+    width: 50px;
+    height: 40px;
+    font-size: 25px;
+}
+
+button{
+    border:3px solid #000;
+    border-radius: 18%;
+    margin-top: 3px;
+    margin-bottom: 20px;
+    width: 80px;
+    height: 40px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(72, 117, 214);
+    font-style: italic;
+    font-size: 14px;
+}
